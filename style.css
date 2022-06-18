@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: hsl(193, 100%, 96%);
+    height: 100vh        
+}
+
+.button{
+    display: flex;
+    margin-right: 80px;
+    margin-top: 40px;
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 7px;
+    justify-content: space-around;
+    width: 10%;
+    background: white;
+    position: absolute;
+    top: 0;
+    right: 0;  
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+}
+
+.logo{ 
+    margin-left: 50px;
+    margin-top: 40px; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;  
+}
+
+.img{  
+    margin-right: 80px;
+    margin-top: 120px; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 50%;    
+}
+
+.cont{
+    margin-left: 120px; 
+    margin-top: -400px; 
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+}
+
+.con{
+    margin-left: 120px; 
+    margin-top: -320px; 
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+.co{
+    margin-left: 120px; 
+    margin-top: -240px; 
+    position: absolute;
+    display: flex;
+    padding: 10px;
+    padding-right: 45px;
+    padding-left: 45px;
+    font-size: 12px;
+    border: 0px solid hsl(322, 100%, 66%);
+    border-radius: 26px;
+    background: hsl(322, 100%, 66%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.grow{
+    background: white;
+    padding: 110px;
+    border: 5px solid whitesmoke;
+    border-radius: 10px; 
+    margin-right: 70px;
+    margin-left: 70px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.growimage{
+    position: absolute;
+    float: right;   
+    right: 0;
+    top: 91%;    
+    max-width: 23%;   
+    margin: 110px;    
+}
+
+.conversation{
+    background: white;
+    padding: 160px;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;   
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.conversationimage{
+    position: absolute;
+    float: left;   
+    left: 0;
+    top: 135%;   
+    max-width: 23%;   
+    margin: 185px;   
+}
+
+.conversat{  
+    position: relative;
+    float: right;
+    left: 120px;
+    top: -45px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.users{
+    background: white;
+    padding: 160px;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;    
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.userscont{   
+    position: absolute;
+    float: left;
+    left: 14%;
+    top: 225%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.usersimage{
+    position: absolute;
+    float: right;  
+    right: 0;
+    top: 198%;  
+    max-width: 23%;   
+    margin: 120px;   
+}
+
+.smallbox{
+    background: white;
+    padding: 50px;
+    padding-bottom: 110px;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;    
+    width: 30%;
+    margin-right: 430px;
+    margin-left: 80px;    
+    float: right;
+    position: relative;   
+    font-family: 'Open Sans', sans-serif;
+}
+
+.smallboxh2{
+    margin-left: 20px; 
+    margin-top: -2%; 
+    position: absolute;
+}
+
+.buttonbelow{
+    margin-left: 60px; 
+    margin-top: 40px; 
+    position: absolute;
+    display: flex;
+    padding: 15px;
+    padding-right: 65px;
+    padding-left: 65px;
+    font-size: 15px;
+    border: 0px solid hsl(322, 100%, 66%);
+    border-radius: 26px;
+    background: hsl(322, 100%, 66%);
+    color: white;    
+}
+
+.footer{
+    background: hsl(192, 100%, 9%); 
+    padding: 220px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footerlogo path{
+    fill: white;    
+}
+
+.footer1{  
+    position: absolute;
+    float: left;
+    left: 10%;
+    top: 315%;
+    color: white;
+}
+
+.footer2{ 
+    position: absolute;
+    float: left;
+    left: 43%;
+    top: 325%;
+    color: white;
+}
+
+.footer3{  
+    position: absolute;
+    float: left;
+    left: 63%;
+    top: 325%;
+    color: white;
+}
+
+.footer4{   
+    position: absolute;
+    float: right;
+    left: 80%;
+    top: 325%;
+    color: white;
+}
+
+.footericon{ 
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(100%) contrast(80%);
+    }
+
+@media screen and (max-width:1000px){
+        .logo .button .img .cont .con .co .grow .growimage{
+            flex-direction: column;
+            
+        }
+    }
+
+    
